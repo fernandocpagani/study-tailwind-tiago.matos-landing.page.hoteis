@@ -33,14 +33,14 @@
           <p class="text-green-100">Escolha o estado e cidade para achar os melhores resorts.</p>
         </div>
         <div class="mt-7">
-          <form class="space-x-4">
+          <form class="grid grid-cols-2 lg:grid-cols-3 gap-4">
             <select class="bg-gray-50 px-3 py-2 border border-gray-300 rounded text-gray-500">
               <option value="">Escolha estado</option>
             </select>
             <select class="bg-gray-50 px-3 py-2 border border-gray-300 rounded text-gray-500">
               <option value="">Escolha cidade</option>
             </select>
-            <button class="inline-flex items-center text-yellow-900 bg-yellow-500 font-medium px-3 py-2 rounded">
+            <button class="col-span-2 lg:col-span-1 inline-flex justify-center  items-center text-yellow-900 bg-yellow-500 font-medium px-3 py-2 rounded">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 mr-2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
               </svg>              
@@ -55,8 +55,8 @@
   <!-- featured resort-->
   <div class="">
     <div class="container mx-auto px-4 py-20 max-w-6xl ">
-      <div class="flex">
-        <div class="pr-10">
+      <div class="flex flex-col-reverse lg:flex-row">
+        <div class="lg:pr-10">
           <div class="text-sm text-gray-400 font-medium">RESORT EM DESTAQUE</div>
           <div class="text-2xl text-gray-600">Ecoresort Praia do Forte Bahia</div>
           <div class="text-sm text-gray-400 font-medium mt-2">Hotel qualidade 5 estrelas</div>
@@ -72,7 +72,7 @@
             </button>
           </div>
         </div>
-        <div class="ml-auto flex-shrink-0">
+        <div class="lg:ml-auto flex-shrink-0 mb-5 lg:mb-0 rounded-lg">
           <img src="./../img/featured-img.png" alt="" width="450">
         </div>
       </div>
@@ -83,34 +83,34 @@
    <div>
     <div class="container mx-auto px-4 max-w-6xl">
       <h3 class="text-2xl text-center text-gray-500 font-semibold mb-8">Conheça mais resorts</h3>
-      <div class="grid grid-cols-4 grid-rows-2 gap-6 rounded-lg overflow-hidden ">
-        <div class="relative col-span-2 row-span-2  ">
+      <div class="md:grid md:grid-cols-4 md:grid-rows-2 md:gap-6 space-y-6 md:space-y-0">
+        <div class="relative md:col-span-2 md:row-span-2 rounded-lg overflow-hidden">
           <div class="absolute bottom-0 pl-4 pb-4 text-white font-bold z-20">
             Beach Park Resort
           </div>
           <img src="../img/image-shadow.png" alt="" class="absolute bottom-0 left-0 right-0 h-20 z-10">
           <img src="./../img/hotel-1.jpeg" alt="" class="w-full h-full object-cover ">
         </div>
-        <div class=" relative col-span-2 h-40 rouded-lg overflow-hidden">
+        <div class=" relative md:col-span-2 md:h-40 rounded-lg overflow-hidden">
           <div class="absolute bottom-0 pl-4 pb-4 text-white font-bold z-20">
             Salinas do Maragogi Resort
           </div>
           <img src="../img/image-shadow.png" alt="" class="absolute bottom-0 left-0 right-0 h-20 z-10">     
-          <img src="./../img/hotel-2.jpeg" alt="" class="w-full h-full object-cover rouded-lg overflow-hidden">
+          <img src="./../img/hotel-2.jpeg" alt="" class="w-full h-full object-cover rounded-lg overflow-hidden">
         </div>
-        <div class="relative rouded-lg overflow-hidden">
+        <div class="relative rounded-lg overflow-hidden">
           <div class="absolute bottom-0 pl-4 pb-4 text-white font-bold z-20">
             Grand Palladium
           </div>
           <img src="../img/image-shadow.png" alt="" class="absolute bottom-0 left-0 right-0 h-20 z-10">  
           <img src="./../img/hotel-3.jpeg" alt="" class="w-full h-full object-cover">
         </div>
-        <div class="relative rouded-lg overflow-hidden">
+        <div class="relative rounded-lg overflow-hidden">
           <div class="absolute bottom-0 pl-4 pb-4 text-white font-bold z-20">
             Arraial d'Ajuda Eco Resort
           </div>
           <img src="../img/image-shadow.png" alt="" class="absolute bottom-0 left-0 right-0 h-20 z-10">  
-          <img src="./../img/hotel-4.jpeg" alt="" class="w-full h-full object-cover rouded-lg overflow-hidden">
+          <img src="./../img/hotel-4.jpeg" alt="" class="w-full h-full object-cover rounded-lg overflow-hidden">
         </div>
       </div>
     </div>
@@ -119,14 +119,14 @@
   <!-- form search-->
   <div class="py-20">
     <div class="container mx-auto px-4 flex justify-center">
-      <form class="space-x-4">
+      <form class="grid grid-cols-2 lg:grid-cols-3 gap-4">
         <select class="bg-gray-50 px-3 py-2 border border-gray-300 rounded text-gray-500">
           <option value="">Escolha estado</option>
         </select>
         <select class="bg-gray-50 px-3 py-2 border border-gray-300 rounded text-gray-500">
           <option value="">Escolha cidade</option>
         </select>
-        <button class="inline-flex items-center text-yellow-900 bg-yellow-500 font-medium px-3 py-2 rounded">
+        <button class="col-span-2 lg:col-span-1 inline-flex justify-center  items-center text-yellow-900 bg-yellow-500 font-medium px-3 py-2 rounded">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 mr-2">
             <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
           </svg>              
@@ -138,8 +138,8 @@
   <!-- /form search-->
   <!-- footer-->
   <!-- /footer-->
-  <div class="border-t border-gray-200">
-    <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+  <div class="border-t border-gray-200 ">
+    <div class="container mx-auto px-4 py-4 flex items-center justify-between max-w-6xl">
       <div class="font-black text-gray-400">
         LOGO
       </div>
